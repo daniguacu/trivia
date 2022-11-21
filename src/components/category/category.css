@@ -1,0 +1,29 @@
+
+
+  .cardimage {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    size: 10 px;
+    max-width: 250px;
+   
+    text-align: center;
+    font-family: arial;
+    display: inline;
+    margin-right: 10px;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    bottom: -50px;
+    
+  }
+  
+  li {
+    background-color: white;
+    border: white;
+    display: inline;
+    margin-right: 130px;
+    float: left;
+  }
+  

@@ -1,0 +1,17 @@
+body,
+html {
+	margin: 0;
+	height: 100%;
+	display: grid;
+	background-color: white;
+	font-family: "Henny Penny", cursive;
+	color: white;
+}
+
+p {
+    color: yellowgreen;
+	margin: auto;
+	letter-spacing: 0.0015em;
+	font-size: 5em;
+	Text-align: center;
+}
