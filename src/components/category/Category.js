@@ -4,6 +4,7 @@ import "./category.css"
 import geo from "../../images/geo.png"
 import ent from "../../images/ent.jpg"
 import cul from "../../images/cul.jpg"
+import { Link } from "react-router-dom"
 
 
 
@@ -41,16 +42,17 @@ const Category=()=>{
         <>
         <h3>Elige una categoría</h3>
         
-        <ul>
+        <ul className="ulcategory">
         {category.map((category, index) => {
           return (
             
-             <li key={index}>
+             <li className="licategory" key={index}>
                 
               {category ? (
-                    <> 
+                    <>
+                    <Link to={`${category._id}`}>
                     <img src={images[index]} className="cardimage"></img>        
-                    <div>{category.name}</div>
+                    <div>{category.name}</div></Link>
                     </> 
                   
                   

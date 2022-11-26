@@ -10,7 +10,7 @@
     display: inline;
     margin-right: 10px;
   }
-  ul {
+  .ulcategory {
     list-style-type: none;
     text-align: center;
     position: relative;
@@ -19,7 +19,7 @@
     
   }
   
-  li {
+  .licategory {
     background-color: white;
     border: white;
     display: inline;
